@@ -1,15 +1,64 @@
 .main-content {
     width: 100%;
-    background-color: grey;
+    background-color: #fff;
     display: inline-flex;
+    padding: 10px 10px;
 }
 
 .section{
+    padding: 10px 10px;
     width: 60%;
-    background-color: #4ED8FA;
+    background-color: rgba(116, 173, 230, 0.67); 
+    border-radius:5px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    
 }
 
 .aside{
     width: 40%;
-    background-color: #1FE71F;
+    padding: 10px 10px;
+    background-color: #646F88;
+    color: #fff;
+
 }
+
+.article p{
+    color: #fff;
+}
+
+iframe{
+    margin-left: 12%;
+    margin-top: 20px;
+    width:75%;
+    
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 950px) {
+    nav {
+        text-align: center
+    }
+
+}
+
+
+
