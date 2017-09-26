@@ -1,0 +1,15 @@
+.main-content {
+    width: 100%;
+    background-color: grey;
+    display: inline-flex;
+}
+
+.section{
+    width: 60%;
+    background-color: #4ED8FA;
+}
+
+.aside{
+    width: 40%;
+    background-color: #1FE71F;
+}
