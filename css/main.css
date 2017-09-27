@@ -1,5 +1,7 @@
 body{
     background: #f2f2f2;
+    padding-top: 70px;
+    
 }
 
 .main-content {
@@ -12,8 +14,8 @@ body{
 .section{
     padding: 10px 10px;
     width: 60%;
-    background-color: rgba(116, 173, 230, 0.67); 
     border-radius:5px;
+    background: #5C87E2;
 }
 
 h1{
@@ -32,14 +34,46 @@ h1{
 
 .article p{
     color: #fff;
+    text-align: center;
+    font-size: 17px;
+    padding: 1em;
+}
+
+.first-text p {
+    padding: 1em;
+    color: #fff;
+    text-align: left;
 }
 
 iframe{
-    margin-left: 12%;
+    margin-left: 13%;
     margin-top: 20px;
     width:75%;
     
-}   
+} 
+
+hr{
+  height:5px; 
+  border-bottom: 1px dashed #fff;
+  width: 95%;
+    
+}
+
+nav.navbar {
+    background-color: #E2AC5C;
+    border: none;
+    box-shadow: inset 0 0 10px #915C00;
+}
+
+nav.navbar ul.nav li a {
+    overflow: hidden;
+    color: #FFFFFF;
+    font-size: 15px;
+    
+}
+
+
+
 
 
 
