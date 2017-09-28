@@ -133,5 +133,18 @@ span .icon-bar{
     }
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.center-bottonSpace{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.tittle--list{
+    list-style: none;
+    text-decoration: underline;
+}
 
 
