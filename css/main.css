@@ -18,7 +18,7 @@ body{
     background: #5C87E2;
 }
 
-h1{
+.article h1{
     text-align: center;
     color: #fff;
     
@@ -72,6 +72,15 @@ nav.navbar ul.nav li a {
     
 }
 
+.navbar-default .navbar-brand{
+    overflow: hidden;
+    color: #fff;
+    font-size:20px; 
+}
+
+.navbar-default button{
+    border: none;
+}
 
 
 
@@ -92,7 +101,7 @@ nav.navbar ul.nav li a {
 
 
 @media screen and (max-width: 950px) {
-    nav {
+    nav{
         text-align: center
     }
 
