@@ -5,7 +5,6 @@ body {
 
 .main-tittle{
     color: white !important;
-    font-size: 20px;
 }
 
 .main-content {
@@ -24,10 +23,6 @@ body {
 
 h1 {
     text-align: center;
-    color: #fff;
-}
-
-.center-bottonSpace{
     color: #fff;
 }
 
@@ -57,6 +52,12 @@ iframe {
     margin-left: 13%;
     margin-top: 20px;
     width: 75%;
+}
+
+hr {
+  height: 5px;
+  border-bottom: 1px dashed #fff;
+  width: 95%;
 }
 
 nav.navbar {
@@ -122,31 +123,15 @@ span .icon-bar{
 }
 
 .navbar-header .main-navbar:hover{
-    background:none;
+        background:none;
+    }
 }
+
+@media screen and (max-width: 950px) {
+    nav {
+        text-align: center
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
