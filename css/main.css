@@ -190,3 +190,37 @@ span .icon-bar{
   margin: 1em auto;
   border-bottom: none;
 }
+
+/* STYLES IMAGES */
+.img-demo{
+  margin: 1em;
+}
+
+.img-demo:hover{
+  cursor: pointer;
+}
+
+/* MODAL */
+
+.modal-active .content-image-modal{
+  position: fixed;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+  top:0px;
+  left: 0px;
+  background-color: rgba(0,0,0, 0.5);
+  text-align: center;
+}
+
+#img-modal{
+  width: 90%;
+  margin: 0px auto;
+  height: 90%;
+  margin-top: 2em;
+}
+
+#img-modal img{
+  max-width: 100%;
+  max-height: 100%;
+}

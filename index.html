@@ -7,10 +7,17 @@
   <title>Desarrollo Web</title>
   <script src="./js/jquery-3.1.1.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/indexScript.js"></script>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+  <div class="img-modal" onclick="closeModal()">
+    <div class="content-image-modal">
+      <div id="img-modal">
+      </div>
+    </div>
+  </div>
   <nav class="navbar navbar-default navbar-fixed-top">
   <div class="navbar-header">
   <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -29,7 +36,6 @@
   </ul>
   </div>
 </nav>
-
 <div class="main-content">
   <div class="section">
   <div class="article">
@@ -67,8 +73,19 @@
 
       <div>
         <h4 class="sub-tittle">Creando nuestro primer proyecto</h4>
-        <div>Una vez descargados e instalados los programas procederemos a abrir primero el <span>Visual studio code</span></div>
+        <div>Una vez descargados e instalados los programas procederemos a abrir <a href=""><span>Visual studio code</span></a>,
+        les dejaré mi configuracion personal para que puedan trabajar de manera mas comoda.
+        Lo que tienen que hacer es lo siguiente:
+        <span>Archivo->Preferencias->Configuración</span>
+          <img
+            class="img-demo"
+            src="./images/configuration_visualStudioCode.jpg"
+            onclick="modalImage('./images/configuration_visualStudioCode-detail.jpg')"
+          >
+        </div>
       </div>
+
+      Una vez que nuestro archivo este modificado como esta en la imagen
 
     </div>
   </div>
