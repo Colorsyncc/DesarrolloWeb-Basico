@@ -30,9 +30,9 @@
   </div>
   <div id="navbarCollapse" class="collapse navbar-collapse">
   <ul class="nav navbar-nav">
-    <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio</a>
-    <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Aprende</a></li>
-    <li><a href="#"><span class="glyphicon glyphicon-scissors" aria-hidden="true"></span> Ejercicios</a></li>
+    <!-- <li><a class="pointer"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio</a> -->
+    <!-- <li><a class="pointer" onclick="inactivity()"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Aprende</a></li>
+    <li><a class="pointer" onclick="inactivity()"><span class="glyphicon glyphicon-scissors" aria-hidden="true"></span> Ejercicios</a></li> -->
   </ul>
   </div>
 </nav>
@@ -71,12 +71,12 @@
 
       <hr class="separation" />
 
-      <div>
+      <div class="section-for-contentText">
         <h4 class="sub-tittle">Creando nuestro primer proyecto</h4>
-        <div>Una vez descargados e instalados los programas procederemos a abrir <a href=""><span>Visual studio code</span></a>,
+        <div class="text-in-section-for-contentText">Una vez descargados e instalados los programas procederemos a abrir <a href="http://wilsonvargas.azurewebsites.net/las-10-preguntas-mas-contestadas-de-visual-studio-code/"><span>Visual studio code</span></a>,
         les dejaré mi configuracion personal para que puedan trabajar de manera mas comoda.
         Lo que tienen que hacer es lo siguiente:
-        <span>Archivo->Preferencias->Configuración</span>
+        <span class="bold">Archivo -> Preferencias -> Configuración</span>
           <img
             class="img-demo"
             src="./images/configuration_visualStudioCode.jpg"
@@ -85,9 +85,35 @@
         </div>
       </div>
 
-      Una vez que nuestro archivo este modificado como esta en la imagen
-
+      <div class="text-in-section-for-contentText">
+        Una vez que nuestro archivo este modificado como esta en la imagen vamos a hacer lo siguiente:<br /><br />
+        <ul>
+          <li>1.-Crear nueva carpeta y darle un nombre, en la ubicación que desees.</li>
+          <li>2.-Abrir Visual Studio Code y dirigirse a <span class="bold">Archivo -> Abrir carpeta...</span></li>
+          <li>3.-Buscan su carpeta recién creada, la seleccionan y le dan click a "Seleccionar carpeta". </li>
+          <li>4.-Puedes ver el ejemplo haciendo
+            <span
+              class="demo-text"
+              onclick="modalImage('./images/open_directory--visualStudioCode.jpg')"
+              >click aquÍ
+          </span>.
+          </li>
+        </ul>
+      </div>
     </div>
+
+    <hr class="separation" />
+
+    <div class="section-for-contentText">
+        <h4 class="sub-tittle">Creando nuestro primer archivo</h4>
+        <div class="text-in-section-for-contentText">
+          Una vez seleccionada nuestra carpeta, podemos comenzar. Nos dirigiremos a <span class="bold">Archivo -> Nuevo Archivo</span>
+          buscamos nuestra carpeta en la que estamos trabajando y dentro de ella creamos un archivo llamado <span class="bold">index.html</span>
+          y en ella escribiremos esto:
+          <img class="img-demo" src="./images/index-1.jpg">
+        </div>
+    </div>
+
   </div>
   </div>
   <div class="aside">
@@ -95,14 +121,23 @@
   <div>
     <ul>
     <li class="tittle--list"><h4>Unidad 1</h4></li>
+    <li>
+      <a class="link-without-styles" href="https://www.youtube.com/embed/4JScXh8jNnk">
+        Video introducción: ¿Qué es la Programación?
+      </a>
+    </li>
     <li>Instalación de programas</li>
     <li>Creando nuestro primer proyecto</li>
-    <li>Elige que pagina quieres hacer</li>
-    <li>Coloreando nuestro primer sitio web</li>
+    <li>Preparando los ambientes</li>
+    <li>Creando nuestro primer archivo</li>
     </ul>
   </div>
   </div>
 </div>
+
+<footer>
+  &copy; Todos los derechos reservados
+</footer>
 
 </body>
 </html>

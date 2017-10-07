@@ -11,3 +11,7 @@ function closeModal() {
     let body=document.getElementsByTagName('body')[0].className='';
     document.getElementById('img-modal').innerHTML='';
 }
+
+function inactivity(){
+    alert("lo sentimos, este botón esta temporalemente inactivo")
+}
